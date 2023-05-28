@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alkatra&family=Poppins:wght@300;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulos {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+    color: #181e2a;
+}
+
+body {
+    background-color: #949fd3da;
+}
+
+.columna {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(33, 44, 78);
+}
+
+.img {
+    width: 35%;
+    height: 35%;
+    border-radius: 60%;
+    border-color: rgb(59, 35, 115);
+    border-style: double;
+}
+
+.subitulo {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(33, 44, 78);
+}
+
+.card {
+    flex: 50%;
+    margin: 10px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card .content {
+
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.cards {
+    display: flex;
+}
+
+.img1 {
+   text-align: center;
+    padding: 12px;
+    border-radius: 15%;
+    width: 28vw;
+
+}
+
+.parr1 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(33, 44, 78);
+    
+}
